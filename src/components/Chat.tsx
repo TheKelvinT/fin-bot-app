@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 
 export default () => {
   const theme = useTheme()
-  const [step, setStep] = useState(4)
+  const [step, setStep] = useState(0)
   const [userData, setUserData] = useState({
     name: "",
     birthYear: "",
