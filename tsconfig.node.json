@@ -17,6 +17,7 @@
 
     /* Linting */
     "strict": false,
+    "typeRoots": ["./node_modules/@types"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
